@@ -1,0 +1,2 @@
+# ShizzaHoPractical
+Сборник практик ShizzaHo
