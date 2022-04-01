@@ -85,29 +85,29 @@ body{
 }
 
 .landings{
-    background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0.4) 100%), url(/img/landings.jpg) no-repeat center center;
+    background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0.4) 100%), url(../img/landings.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .scripts{
-    background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0.4) 100%), url(/img/scripts.jpg) no-repeat center center;
+    background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0.4) 100%), url(../img/scripts.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .tools{
-    background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0.4) 100%), url(/img/tools.jpg) no-repeat center center;
+    background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0.4) 100%), url(../img/tools.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .portfolio{
-    background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0.4) 100%), url(/img/portfolio.jpg) no-repeat center center;
+    background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0.4) 100%), url(../img/portfolio.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .page__projects{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%), #393939;
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     z-index: 1;
 }
 
