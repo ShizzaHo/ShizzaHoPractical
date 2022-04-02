@@ -27,10 +27,12 @@ class Project {
 /* */
 
 /* */
-
+tools.push("TelegramWeb ChatMoveToRight","Расширение для chromium браузеров которое переместит ваш чат TelegramWeb влево","07.02.2022","Extensions, JS, HTML, CSS","Открыть репозиторий в GitHub","ChatMoveToRight","https://i.ibb.co/2Wt7csG/image.png");
 /* */
 
 /* */
-
+function ChatMoveToRight(){
+    
+}
 /* */
 
