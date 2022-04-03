@@ -23,7 +23,7 @@ class Project {
 }
 
 /* */
-
+landings.push(new Project("Мой уть обучения React | Первый раз","Пока что вообще неясны перспективы данного фреймворка, однако тот факт что можно вставить js код прямо в разметку очень даже удобный, JSX не удобный, но думаю есть способ писать разметку в отдельном файле, иначе все выглядит очень плачевно...(    Результат урока можно глянуть тут: https://shizzaho.github.io/ShizzaHoPractical/practical_landings/react_FirstTime/","03.04.2022","React","Открыть репозиторий в GitHub","openReactFT","https://i.pinimg.com/originals/12/7b/47/127b470a1814ca2ae06d9f40df34f190.png"));
 /* */
 
 /* */
@@ -37,6 +37,10 @@ function ChatMoveToRight(){
 }
 
 function SZHRemote(){
+    window.open("https://github.com/ShizzaHo/SZH-Remote");
+}
+
+functiob openReactFT(){
     window.open("https://github.com/ShizzaHo/SZH-Remote");
 }
 /* */
