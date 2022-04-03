@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Hello React</title>
+</head>
+<body>
+    <div id="app"> </div>
+       
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+      
+   <script type="text/babel">
+
+    const message = {
+        name: "ShizzaHo",
+        id: "00000001",
+        title: "Привет реакт!!!",
+        message: "Это мое первое знакомство с этим фреймворком!",
+    }
+
+    const rootNode = document.getElementById("app");
+    const root = ReactDOM.createRoot(rootNode);
+    root.render(
+        <>
+            <h3>Статические штучки:</h3>
+            <h1>Hello React</h1>
+            <button>Hello React</button>
+            <ul>
+                <li>Hello React 1</li>
+                <li>Hello React 2</li>
+                <li>Hello React 3</li>
+            </ul>
+            <hr></hr>
+            <h3></h3>
+            <h3>Проверка фигурных скобок и JS кода в них:</h3>
+            <p>10 + 10 * 10 = {10+10*10}</p>
+            <p>1000 / 50 * 10 = {1000 / 50 * 10}</p>
+            <p>В консоли появится сообщение { console.log("hello world React!") }</p>
+            <p>Локальное время: {new Date().toLocaleTimeString()}</p>
+            <hr></hr>
+            <h3>Проверка работы с объектами:</h3>
+            <div>
+                <p>--- НОВОЕ СООБЩЕНИЕ ---</p>
+                <p>Имя отправителя сообщения: {message.name} ( ID {message.id} )</p>
+                <p>Заголовок: {message.title}</p>
+                <p>Сообщение: {message.message}</p>
+                <p>--------------------------------------</p>
+            </div>
+            <hr></hr>
+            <h3>Пробуем в CSS:</h3>
+            <span className="superText">СУПЕР ТЕКСТ</span><br></br>
+            <span style={{color: "rgb(88, 9, 88)", fontSize: "32px", fontWeight: "900", backgroundColor: "gold", fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"}}>Повторяем супер текст, но уже в самом теге</span>
+        </>
+     );
+   </script>
+</body>
+</html>
