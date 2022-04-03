@@ -40,7 +40,7 @@ function SZHRemote(){
     window.open("https://github.com/ShizzaHo/SZH-Remote");
 }
 
-functiob openReactFT(){
+function openReactFT(){
     window.open("https://github.com/ShizzaHo/SZH-Remote");
 }
 /* */
