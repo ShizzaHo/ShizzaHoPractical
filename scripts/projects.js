@@ -27,7 +27,7 @@ landings.push(new Project("Мой путь обучения React | Первый
 /* */
 
 /* */
-tools.push(new Project("TelegramWeb ChatMoveToLeft","Расширение для chromium браузеров которое переместит ваш чат TelegramWeb влево","07.02.2022","Extensions, JS, HTML, CSS","Открыть репозиторий в GitHub","ChatMoveToRight","https://sun9-87.userapi.com/c637725/v637725736/1c77b/Tp0EeYMJwiU.jpg"));
+tools.push(new Project("Telegram Web Enhancer","Расширение для chromium браузеров которое добавит несколько функций в Telegram Web","07.02.2022","Extensions, JS, HTML, CSS","Открыть репозиторий в GitHub","ChatMoveToRight","https://sun9-87.userapi.com/c637725/v637725736/1c77b/Tp0EeYMJwiU.jpg"));
 tools.push(new Project("SZH Remote (Проект заморожен)","Приложение для удаленного управления Windows, управление работает на любом устройстве на котором есть веб-браузер","15.02.2022","JS, HTML, CSS, NodeJS, ElectronJS, ExpressJS","Открыть репозиторий в GitHub","SZHRemote","https://i.ibb.co/y0P7R0V/image.png"));
 /* */
 
