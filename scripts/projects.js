@@ -33,7 +33,7 @@ tools.push(new Project("SZH Remote (Проект заморожен)","Прил�
 
 /* */
 function ChatMoveToRight(){
-    window.open("https://github.com/ShizzaHo/TelegramWeb-ChatMoveToLeft");
+    window.open("https://github.com/ShizzaHo/Telegram-Web-Enhancer");
 }
 
 function SZHRemote(){
